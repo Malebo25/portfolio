@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* Light grayish white background */
+  color: #333; /* Dark grayish text color */
+}
+
+nav {
+  background-color: #fff; /* White navigation bar */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333; /* Dark grayish link color */
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 18px;
+}
+
+main {
+  padding: 20px;
+}
+.project img {
+  width: 200px;
+  height: 200px;
+}
+
+.project h3 {
+  margin-top: 10px;
+}
+
+.project p {
+  margin-top: 10px;
+}
+
+.project a {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
