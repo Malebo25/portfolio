@@ -1,10 +1,10 @@
 @font-face {
   font-family: "maginia";
-  src: url("font/MaginiaRegular-BWP6x.otf");
+  src: url("./font/MaginiaRegular-BWP6x.otf");
 }
 @font-face {
   font-family: "kanit";
-  src: url("font/Kanit-Bold.ttf");
+  src: url("./font/Kanit-Bold.ttf");
 }
 body {
   margin: 0;
