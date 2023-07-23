@@ -1,9 +1,20 @@
+@font-face {
+  font-family: "maginia";
+  src: url("font/MaginiaRegular-BWP6x.otf");
+}
+@font-face {
+  font-family: "kanit";
+  src: url("font/Kanit-Bold.ttf");
+}
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: kanit;
   background-color: #c4afae; /* Light grayish white background */
   color: #333; /* Dark grayish text color */
+}
+h1 {
+  font-family: maginia;
 }
 
 nav {
