@@ -1,0 +1,32 @@
+.header img {
+  border-radius: 10px;
+}
+body {
+  line-height: 1, 5;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+footer {
+  background-color: bisque;
+}
+li {
+  display: inline-block;
+  border-left: 1px;
+}
+ul {
+  margin-left: 0% !important;
+
+  padding-left: 0% !important;
+}
+
+footer .my-4 {
+  margin-top: 1.5rem !important;
+  margin-bottom: 0px !important;
+}
+
+@media (max-width: 989px) {
+  .header img {
+    width: 480px;
+  }
+}
