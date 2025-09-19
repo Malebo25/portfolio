@@ -27,6 +27,7 @@ footer .my-4 {
 
 @media (max-width: 989px) {
   .header img {
-    width: 480px;
+    width: 300px;
+    border-radius: 50%;
   }
 }
