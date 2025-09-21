@@ -56,6 +56,7 @@ body {
 
 footer {
   background-color: #564d54;
+  border: none;
 }
 li {
   display: inline-block;
@@ -66,7 +67,16 @@ ul {
 
   padding-left: 0% !important;
 }
-
+.contact {
+  background-image: linear-gradient(
+    to bottom right,
+    #6ca2ba,
+    #1c3168,
+    #ae9076,
+    #8cd8d2,
+    #62459e
+  );
+}
 footer .my-4 {
   margin-top: 1.5rem !important;
   margin-bottom: 0px !important;
