@@ -11,6 +11,7 @@ body {
 .navbar-custom .nav-link {
   color: #4f5462; /* Light text for a dark background */
 }
+
 /* nav {
   /* background-image: linear-gradient(
     to right,
@@ -55,18 +56,18 @@ body {
 }
 
 footer {
-  background-color: #564d54;
+  background-color: white;
   border: none;
 }
 li {
   display: inline-block;
-  border-left: 1px;
 }
 ul {
   margin-left: 0% !important;
 
   padding-left: 0% !important;
 }
+
 .contact {
   background-image: linear-gradient(
     to bottom right,
