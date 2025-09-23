@@ -92,12 +92,12 @@ ul {
 }
 
 .card-img-top {
-  height: 300px; /* Set a fixed height for all carousel images */
-  object-fit: cover; /* This will ensure the image fills the space without distortion */
+  height: 300px;
+  object-fit: cover;
 }
 
 .card-body {
-  min-height: 200px; /* Ensure a minimum height for all card bodies */
+  min-height: 200px;
 }
 .contact {
   background-image: linear-gradient(
