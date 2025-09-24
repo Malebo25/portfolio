@@ -6,7 +6,10 @@
 body {
   color: #564d54 !important;
 }
-
+a {
+  text-decoration: none !important;
+  color: #564d54 !important;
+}
 .card a {
   color: #c09daa;
   /* border: 2px solid #acb0d5;
@@ -157,7 +160,7 @@ footer .my-4 {
 
 @media (min-width: 989px) {
   .header img {
-    width: 300px;
+    width: 380px;
   }
   .carousel-indicators {
     position: relative !important;
