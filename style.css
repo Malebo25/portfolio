@@ -2,8 +2,23 @@
   border-radius: 10px;
   /* border: 2px solid #e9a7af; */
 }
+
 body {
   color: #564d54 !important;
+}
+
+.card a {
+  color: #c09daa;
+  /* border: 2px solid #acb0d5;
+  background-color: #acb0d5;
+  padding: 8px; */
+  line-height: 1, 5;
+  border-radius: 2px;
+  font-weight: 700;
+}
+.card a:hover {
+  background-color: white;
+  color: #ae9076;
 }
 .section {
   color: #acb0d5;
@@ -84,7 +99,7 @@ body {
 footer {
   background-color: white;
   border: none;
-  color: #564d54;
+  color: #564d54 !important;
 }
 li {
   display: inline-block;
@@ -118,12 +133,12 @@ ul {
 }
 
 .card-img-top {
-  height: 300px;
+  height: 200px;
   object-fit: cover;
 }
 
 .card-body {
-  min-height: 200px;
+  min-height: 160px;
 }
 .contact {
   background-image: linear-gradient(
@@ -165,7 +180,7 @@ footer .my-4 {
   }
   .header h1 {
     color: #acb0d5 !important;
-    font-size: 46px;
+    font-size: 56px;
   }
   .carousel-control-prev,
   .carousel-control-next {
