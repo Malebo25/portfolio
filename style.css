@@ -5,31 +5,56 @@
 body {
   color: #564d54 !important;
 }
+.section {
+  color: #acb0d5;
+
+  font-size: 38px;
+  font-weight: 500 !important;
+  line-height: 1, 6;
+}
+.card {
+  border: 1px solid #acb0d5 !important;
+}
+.card-title {
+  color: #c09daa !important;
+  font-size: 21px;
+  font-weight: 480 !important;
+}
+.card-text {
+  color: #564d54 !important;
+  font-weight: 450 !important;
+  line-height: 1, 5;
+}
+.contactBtn {
+  background-color: #c09daa !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900px;
+  line-height: 1.5;
+}
+.contactBtn:hover {
+  background-color: aliceblue !important;
+  color: #62459e !important;
+}
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text,
 .navbar-custom .nav-link,
 .navbar-custom .nav-link .active {
   color: #acb0d5 !important;
+  font-size: 18px;
+  font-weight: 490;
 }
 
 /* nav {
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
     to right,
     #79608e,
     #c09daa,
     #db787a,
     #eba490,
     #f4c6a3
-  ); */
-
-/* {
-
-  #6CA2BA
-  #1C3168
-  #AE9076
-  #8CD8D2
-  #62459E
+  );
 } */
 
 .header {
@@ -59,6 +84,7 @@ body {
 footer {
   background-color: white;
   border: none;
+  color: #564d54;
 }
 li {
   display: inline-block;
@@ -125,15 +151,30 @@ footer .my-4 {
 }
 
 @media (max-width: 989px) {
-  .header img {
-    width: 300px;
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text,
+  .navbar-custom .nav-link,
+  .navbar-custom .nav-link .active {
+    color: #acb0d5 !important;
+    font-size: 16px;
+    font-weight: 490;
   }
-  /* This will make the carousel controls sit in the normal document flow */
+
+  .header img {
+    width: 390px;
+  }
+  .header h1 {
+    color: #acb0d5 !important;
+    font-size: 46px;
+  }
   .carousel-control-prev,
   .carousel-control-next {
     position: static !important;
     width: 100%;
     margin-top: 10px;
+  }
+  .section {
+    font-size: 28px;
   }
 
   .carousel-control-prev-icon,
