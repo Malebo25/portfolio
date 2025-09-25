@@ -1,7 +1,22 @@
 .header img {
   border-radius: 50%;
 }
+@font-face {
+  font-family: "nameFont";
+  src: url("./font/AlexBrush-Regular.ttf");
+}
+@font-face {
+  font-family: "prociono";
+  src: url("./prociono-master/Prociono.ttf");
+}
+@font-face {
+  font-family: "relieve";
+  src: url("./relieve/Relieve.ttf");
+}
 
+.prociono {
+  font-family: "prociono";
+}
 body {
   color: #564d54 !important;
 }
@@ -17,6 +32,7 @@ a {
   line-height: 1, 5;
   border-radius: 2px;
   font-weight: 700;
+  font-family: "prociono";
 }
 .card a:hover {
   background-color: white;
@@ -24,9 +40,10 @@ a {
 }
 .section {
   color: #acb0d5;
+  font-family: "Work Sans";
 
   font-size: 38px;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   line-height: 1, 6;
 }
 .card {
@@ -46,7 +63,7 @@ a {
   background-color: #c09daa !important;
   border: none !important;
   color: white !important;
-  font-weight: 900px;
+  font-weight: bold !important;
   line-height: 1.5;
 }
 .contactBtn:hover {
@@ -60,7 +77,8 @@ a {
 .navbar-custom .nav-link .active {
   color: #acb0d5 !important;
   font-size: 18px;
-  font-weight: 490;
+  font-weight: 490 !important;
+  font-family: "prociono";
 }
 
 .header {
@@ -79,12 +97,44 @@ a {
 .header h1 {
   color: #acb0d5 !important;
   font-size: 66px;
+  font-family: "Work Sans" !important;
+}
+.proffesion {
+  width: 23ch;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  /* /
+  border-right: 0.15em solid #acb0d5; */
+
+  animation: typing 3s steps(23, end) infinite,
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 23ch;
+  }
+}
+
+/* NEW: Keyframes for the blinking cursor */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #acb0d5;
+  }
 }
 
 body {
   line-height: 1, 5;
-  font-size: 100px;
-  font-weight: 700;
 }
 
 footer {
