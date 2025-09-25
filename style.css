@@ -1,6 +1,5 @@
 .header img {
-  border-radius: 10px;
-  /* border: 2px solid #e9a7af; */
+  border-radius: 50%;
 }
 
 body {
@@ -63,17 +62,6 @@ a {
   font-size: 18px;
   font-weight: 490;
 }
-
-/* nav {
-  background-image: linear-gradient(
-    to right,
-    #79608e,
-    #c09daa,
-    #db787a,
-    #eba490,
-    #f4c6a3
-  );
-} */
 
 .header {
   /* background-image: linear-gradient(
