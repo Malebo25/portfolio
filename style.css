@@ -13,9 +13,13 @@
   font-family: "relieve";
   src: url("./relieve/Relieve.ttf");
 }
+.relieve {
+  font-family: "Work sans";
+  color: #acb0d5 !important;
+}
 
 .prociono {
-  font-family: "prociono";
+  font-family: "Work sans";
 }
 body {
   color: #564d54 !important;
@@ -25,34 +29,35 @@ a {
   color: #564d54 !important;
 }
 .card a {
-  color: #c09daa;
-  /* border: 2px solid #acb0d5;
-  background-color: #acb0d5;
-  padding: 8px; */
+  color: white !important;
+
+  background-color: #b997a7;
+  padding: 8px;
   line-height: 1, 5;
-  border-radius: 2px;
-  font-weight: 700;
-  font-family: "prociono";
+  border-radius: 5px;
+
+  font-family: "Work sans";
 }
 .card a:hover {
   background-color: white;
-  color: #ae9076;
+  color: #62459e !important;
 }
 .section {
   color: #acb0d5;
-  font-family: "Work Sans";
+  font-family: "Plus Jakarta Sans", sans-serif;
 
   font-size: 38px;
   font-weight: 600 !important;
-  line-height: 1, 6;
+  line-height: 1, 5;
 }
 .card {
   border: 1px solid #acb0d5 !important;
 }
 .card-title {
-  color: #c09daa !important;
+  color: #c1b4c0 !important;
   font-size: 21px;
-  font-weight: 480 !important;
+  font-weight: 600 !important;
+  font-family: ;
 }
 .card-text {
   color: #564d54 !important;
@@ -63,6 +68,7 @@ a {
   background-color: #c09daa !important;
   border: none !important;
   color: white !important;
+  font-family: "Work sans" !important;
   font-weight: bold !important;
   line-height: 1.5;
 }
@@ -78,7 +84,7 @@ a {
   color: #acb0d5 !important;
   font-size: 18px;
   font-weight: 490 !important;
-  font-family: "prociono";
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .header {
@@ -97,9 +103,13 @@ a {
 .header h1 {
   color: #acb0d5 !important;
   font-size: 66px;
-  font-family: "Work Sans" !important;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 .proffesion {
+  font-size: 55px!;
+  font-weight: 700;
+  font-family: "prociono";
+  color: #c1b4c0;
   width: 23ch;
 
   white-space: nowrap;
@@ -134,7 +144,7 @@ a {
 }
 
 body {
-  line-height: 1, 5;
+  line-height: 1, 5 !important;
 }
 
 footer {
@@ -190,6 +200,9 @@ ul {
     #8cd8d2,
     #62459e
   );
+}
+.contact h1 {
+  color: #acb0d5 !important;
 }
 footer .my-4 {
   margin-top: 1.5rem !important;
